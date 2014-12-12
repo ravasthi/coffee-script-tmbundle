@@ -145,15 +145,23 @@ comments.flatten.each { |c| puts "# #{c}" }
 </string>
 	<key>input</key>
 	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>~@]</string>
+	<string>~@}</string>
 	<key>name</key>
 	<string>Align Assignments</string>
-	<key>output</key>
-	<string>replaceSelectedText</string>
+	<key>outputCaret</key>
+	<string>heuristic</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>replaceInput</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>uuid</key>
 	<string>EE3293A5-3761-40BD-9CA8-DAAA176AA19E</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
